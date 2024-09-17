@@ -2,6 +2,24 @@
 Changelog for package ros2cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.18.11 (2024-07-26)
+--------------------
+* Update daemon.py for Python 3.8 compatibility (`#912 <https://github.com/ros2/ros2cli/issues/912>`_)
+* ros2cli.node.daemon : try getting fdsize from /proc for open fd limit (`#888 <https://github.com/ros2/ros2cli/issues/888>`_) (`#908 <https://github.com/ros2/ros2cli/issues/908>`_)
+* Contributors: AhmedMoaz, mergify[bot]
+
+0.18.10 (2024-05-15)
+--------------------
+
+0.18.9 (2024-02-16)
+-------------------
+
+0.18.8 (2024-01-24)
+-------------------
+* make handles not inheritable to prevent from blocking durning tab-completion (`#852 <https://github.com/ros2/ros2cli/issues/852>`_) (`#873 <https://github.com/ros2/ros2cli/issues/873>`_)
+* catch ExternalShutdownException ros2cli main. (`#854 <https://github.com/ros2/ros2cli/issues/854>`_) (`#859 <https://github.com/ros2/ros2cli/issues/859>`_)
+* Contributors: mergify[bot]
+
 0.18.7 (2023-07-18)
 -------------------
 * Set automatically_declare_parameters_from_overrides in DirectNode. (`#813 <https://github.com/ros2/ros2cli/issues/813>`_) (`#815 <https://github.com/ros2/ros2cli/issues/815>`_)
